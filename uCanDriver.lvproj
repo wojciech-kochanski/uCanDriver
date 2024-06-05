@@ -10,6 +10,7 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
+		<Item Name="control leds.ctl" Type="VI" URL="../uCAN/product specific/typedefs/control leds.ctl"/>
 		<Item Name="PCAN_Driver.lvlib" Type="Library" URL="../../PCAN-Driver/PCAN_Driver.lvlib"/>
 		<Item Name="uCanDriver.lvlib" Type="Library" URL="../uCanDriver.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
